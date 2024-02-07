@@ -63,7 +63,7 @@ const Index = () => {
             value={data.title}
             onChange={inputHandler}
             placeholder="Enter Your Task"
-            className="py-5 px-10 w-1/2 rounded-10"
+            className="py-5 px-10 w-1/2 rounded-3xl"
             type="text"
           />
           <textarea
@@ -71,7 +71,7 @@ const Index = () => {
             value={data.description}
             name="description"
             placeholder="Enter Your Description"
-            className="py-5 px-10 w-1/2 rounded-10"
+            className="py-5 px-10 w-1/2 rounded-3xl"
             type="text"
           />
           <button
